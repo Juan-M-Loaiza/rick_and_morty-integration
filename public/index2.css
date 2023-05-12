@@ -1,0 +1,21 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+ body{
+  background-image: url('https://wallpaper.dog/large/17058625.png');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+   background-attachment: fixed;
+ }
+
+ #root{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+ }

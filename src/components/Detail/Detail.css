@@ -1,0 +1,108 @@
+.detail-space {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.out-detail {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+
+
+.out-detail .out-button {
+  margin-left: 80px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: 0.1s;
+}
+
+.out-detail .out-button:hover{
+  transform: scale(1.2);
+  transition: 0.1s;
+}
+
+
+.out-detail .out-button .ahref{
+  color: rgba(138, 138, 138);
+}
+
+.out-detail .out-button .ahref:hover{
+  color: #3ab84a;
+}
+
+.character-detail {
+    background-color: rgba(138, 138, 138, 0.79);
+    display: flex;
+    max-width: 900px;
+    justify-content: space-around;
+    padding: 50px;
+    border-radius: 29px;
+    animation-name: flotar;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes flotar {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+
+
+.properties {
+    background-color: rgba(138, 138, 138);;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow:  28px 28px 56px #1b211b,
+             -28px -28px 56px #817f7e;
+}
+
+.properties .info-contain{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.properties h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 8px;
+    text-decoration: underline;
+}
+
+.properties p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+
+.image img {
+    height: 403.167px;
+    border-radius: 15px;
+    box-shadow:  28px 28px 56px #1b211b,
+             -28px -28px 56px #817f7e;
+    
+}
+
+/* 543.167px */

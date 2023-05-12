@@ -1,0 +1,103 @@
+.formulario {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+}
+
+input{
+    width: 270px;
+    height: 40px;
+    color: white;
+    background-color: transparent;
+    border:2px solid white;
+    border-radius: 15px;
+    margin-bottom: 3px;
+    font-family: 'Courier New', Courier, monospace;
+    outline: none;
+   
+}
+
+input:focus ~ label {
+    top: 0;
+    left: 15px;
+    font-size: 15px;
+    padding: 0 2px;
+    background-color: #181818;
+    transition: 0.3s;
+}
+
+label {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    transition: 0.3s;
+}
+
+
+.form-section {
+    width: 826.867px;
+    background-color: #181818;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-section .img-header {
+    width: 320px;
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+
+.form-section button {
+    padding: 8px;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: #44b2ca;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.form-section button:hover {
+    background-color: #8ed54b;
+    transition: 0.3s;
+    transform: scale(1.);
+}
+
+.input-zone{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.input-zone span{
+    color: white;
+    text-align: left;
+    font-size: 13px;
+}
+
+.input-zone-two {
+    display: flex;
+    position: relative;
+}
+.input-zone-two
+
+
+.img-section{
+    height: 100vh;
+    position: center center;
+    size: cover;
+}
+.img-form{
+    height: 100vh;
+    position: fixed;
+    
+}
+

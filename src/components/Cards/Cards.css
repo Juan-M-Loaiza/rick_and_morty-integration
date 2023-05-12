@@ -1,0 +1,123 @@
+.cards-container{
+    width: 100%;
+    display: grid;
+    margin-top: 120px;
+    grid-template-columns: 210px 210px 210px 210px;
+    justify-content: space-around;
+}
+
+.div-character {
+    width: 200px;
+    padding: 10px;
+    background-color: rgba(138, 138, 138, 0.79);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    box-shadow:  14px 14px 58px #3d794b,
+             -14px -14px 58px ;
+}
+
+.div-character .button-exit {
+    width: 20%;
+    justify-content: end;
+    border: none;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: #d0f150;
+    transition: 0.1s;
+    margin-right: 110px;
+}
+
+.div-character .div-buttons .button-exit:hover{
+    background-color: red;
+    transition: 0.1s ease-in-out;
+    transform: scale(1.0);
+    box-shadow:  4px 4px 20px #000000,
+             -4px -4px 20px ;
+}
+
+
+
+.div-character .div-buttons .button-of-favorite{
+    padding: 0 9px 2px 9px;
+    border: none;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: #d0f150;
+    transition: 0.1s;
+}
+
+.div-character .div-buttons .button-of-favorite:hover{
+    transition: 0.1s ease-in-out;
+    transform: scale(1.1);
+    box-shadow:  4px 4px 20px #000000,
+             -4px -4px 20px ;
+}
+
+
+.div-character .div-buttons .button-of-unfavorite{
+    padding: 0 9px 2px 9px;
+    border: none;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-color: #d0f150;
+    transition: 0.1s;
+}
+
+.div-character .div-buttons .button-of-unfavorite:hover{
+    transition: 0.1s ease-in-out;
+    transform: scale(1.1);
+    box-shadow:  4px 4px 20px #000000,
+             -4px -4px 20px ;
+}
+
+
+.div-character .div-buttons .button-of-unfavorite .unfavorite {
+    color: rgba(138, 138, 138, 0.79);
+    
+}
+
+
+.div-character ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+.div-character ul a li button{
+   background-color: gray;
+    width: 80%;
+    box-shadow:  5px 5px 27px #000000;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    transition: 0.2s ease-in-out;
+}
+
+.div-character ul a li button:hover{
+    background-color: #d0f150;
+    transition: 0.2s ease-in-out;
+    transform: scale(1.0);
+    box-shadow:  4px 4px 20px #000000,
+             -4px -4px 20px ;
+}
+
+
+.div-character ul a li button span{
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.img-character {
+    height: 200px;
+    width: 200px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}

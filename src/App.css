@@ -1,38 +1,63 @@
 .App {
-  text-align: center;
+  display: flex;
+   /* justify-content: center; */
+   /* align-items: center; */
+   font-family: 'Courier New', Courier, monospace;
+   width: 100%;
+   height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.characters-content {
+  width: 100%;
+  height: 100%; 
+  display: flex;
+  flex-direction: column;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.detail-contain {
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.about {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.about .button-back{
+  width: 90%;
+  margin-top: 70px;
+  margin-left: 30px;
+}
+
+.about .button-back .go-home{
+  background-color: transparent;
+  border: none;
+  transition: 0.1s;
+}
+
+
+.about .button-back .go-home:hover{
+  transform: scale(1.2);
+  transition: 0.1s;
+}
+
+.about .button-back .go-home .ahref-about{
+  color: rgba(138, 138, 138)
+}
+
+.about .button-back .go-home .ahref-about:hover {
+  color: #3ab84a;
+}
+
+.favorites-container{
+  width: 100%;
+  height: 100%; 
+  display: flex;
+  flex-direction: column;
 }
